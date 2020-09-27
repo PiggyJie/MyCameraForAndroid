@@ -51,8 +51,8 @@ public class SDBDeviceInfo implements Cloneable, Serializable {
 			info = (SDBDeviceInfo) super.clone();
 			info.st_0_Devmac = this.st_0_Devmac.clone();
 			info.st_1_Devname = this.st_1_Devname.clone();
-			// info.st_2_Devip = this.st_2_Devip.clone();
-			// info.st_3_devPort = this.st_3_devPort.clone();
+//			 info.st_2_Devip = this.st_2_Devip.clone();
+//			 info.st_3_devPort = this.st_3_devPort.clone();
 			info.st_4_loginName = this.st_4_loginName.clone();
 			info.st_5_loginPsw = this.st_5_loginPsw.clone();
 		} catch (CloneNotSupportedException e) {
